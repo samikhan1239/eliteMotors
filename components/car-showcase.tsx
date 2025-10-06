@@ -34,7 +34,7 @@ export function CarShowcase() {
 
   return (
     <div className="relative min-h-screen bg-gradient-to-b from-background via-background to-primary/5">
-      {/* 🔹 Header with hide/show animation */}
+      {/*  Header */}
       <header
         className={`fixed top-0 left-0 right-0 z-50 glass-effect border-b border-primary/30 shadow-xl transform transition-transform duration-500 ${
           showHeader ? "translate-y-0" : "-translate-y-full"
@@ -120,7 +120,7 @@ export function CarShowcase() {
         </div>
       </header>
 
-      {/* 🔹 Hero Section */}
+      {/* Hero Section */}
       <section className="pt-36 pb-20 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-16 animate-slide-up">
